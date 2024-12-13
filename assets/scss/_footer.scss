@@ -1,0 +1,59 @@
+.footer {
+    button {
+        border-radius: 6px;
+        border: 2px solid #F26037;
+        background: #000B1A;
+        padding: 16px 29px;
+        color: #C7D4F4;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 160%;
+    }
+
+    .container {
+        &:nth-child(1) {
+            padding: 35px 0;
+            border-top: 1px solid #C7D4F4;
+            border-bottom: 1px solid #C7D4F4;
+        }
+
+        &.footer_top {
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        .footer_title {
+            color: #FFF;
+            font-family: 'Days One';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 128%;
+        }
+
+        .footer_form {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            margin-top:30px ;
+        }
+
+        &.footer_bottom {
+            display: flex;
+            color: #C7D4F4;
+            justify-content: space-between;
+            padding: 21px 0;
+
+            a {
+                color: #C7D4F4;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 160%;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
