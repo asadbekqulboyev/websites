@@ -1,0 +1,63 @@
+.contacts{
+    padding-top: 85px;
+    padding-bottom: 70px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .contact_top{
+            display: flex;
+            flex-direction: column;
+            gap: 15px 0;
+            .section_title{
+                text-align: left;
+            }
+        }
+        .contact_info{
+            ul{
+            margin-top:20px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px 0;
+                a{
+                    font-size: 16px;
+                    color: #F26037;
+                    font-family: "Days One";
+                    font-weight: 400;
+                }
+            }
+            li{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+            }
+        }
+        .contact_form{
+            .contact_form_content{
+                margin-top: 31px;
+                .form_top{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 21px;
+                    label{
+                        width: 100%;
+                        position: relative;
+                        input{
+                            outline: none;
+                            width: 100%;
+                            padding: 18px 20px;
+                            border: 2px solid #C7D4F4;
+                            border-radius: 6px;
+                            background: #000B1A;
+                        }
+                        .icon{
+                            position: absolute;
+                            right: 14px ;
+                            bottom: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
