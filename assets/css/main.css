@@ -272,6 +272,32 @@ body {
   right: 14px;
   bottom: 14px;
 }
+.contacts .container .contact_form .contact_form_content label {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+.contacts .container .contact_form .contact_form_content label textarea {
+  display: block;
+  margin-top: 21px;
+  padding: 18px 20px;
+  outline: none;
+  border: 2px solid #C7D4F4;
+  border-radius: 6px;
+  background: #000B1A;
+  width: 100%;
+  color: rgba(199, 212, 244, 0.69);
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  min-height: 230px;
+}
+.contacts .container .contact_form .contact_form_content label .icon {
+  position: absolute;
+  top: 14px;
+}
 
 .footer {
   padding-top: 12px;
